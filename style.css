@@ -1,0 +1,43 @@
+body
+{
+    background: linear-gradient(to bottom left, white, rgb(209, 39, 186), rgb(14, 218, 222), rgb(0, 250, 0), rgb(244, 134, 0));
+}
+.title
+{
+    font-family: 'Blaka Hollow', cursive;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.997) ;
+    font-size: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+} 
+.title:hover
+{
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.997) ;
+}
+.footer
+{
+    background: linear-gradient(to left, rgb(29, 252, 0), rgb(255, 128, 0), rgb(51, 0, 255));
+    left:0;
+    bottom: -10px;
+    width: 100%;
+    height: 35px;
+    line-height: 25px;
+    position: fixed;
+    color: rgb(0, 0, 0);
+    text-decoration-line: overline;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 5px;
+
+}
+.note
+{
+    font-family: 'Lilita One', cursive;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.997) ;
+    color:rgb(0, 0, 0);
+    font-size: 10px;
+}
